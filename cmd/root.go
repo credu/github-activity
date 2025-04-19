@@ -1,7 +1,17 @@
 package cmd
 
-import "fmt"
+import (
+	"os"
+)
 
 func Execute() {
-	fmt.Println("Hello world")
+	args := os.Args
+
+	if len(args) != 2 {
+		ShowDefaultMessage()
+		os.Exit(1)
+	}
+
+	username := args[1]
+	ShowUserActivityByUsername(username)
 }
