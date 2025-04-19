@@ -1,3 +1,13 @@
+<div align="center">
+
+# GitHub User Activity
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/credu/github-activity.svg)](https://pkg.go.dev/github.com/credu/github-activity)
+
+</div>
+
+A solution for **[Github User Activity](https://roadmap.sh/projects/github-user-activity)** Roadmap's project.
+
 ## How to run?
 
 **Note:** You need to have **[Go](https://go.dev/)** installed on your computer.
